@@ -3,7 +3,6 @@
 A dashboard designed to motivate developers with daily quotes, programming tips, and task management.
 Creatind using SolidJS.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PmwzyCAM2Gg" frameborder="0" allowfullscreen></iframe>
 
 ### Click to watch demo:
 
