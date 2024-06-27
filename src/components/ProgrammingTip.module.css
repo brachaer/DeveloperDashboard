@@ -1,0 +1,50 @@
+  .tipContainer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .tipContainer h2 {
+    margin-bottom: 10px;
+  }
+  
+  .tipContainer h3 {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  
+  .tipContainer p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .tipContainer a {
+    display: block;
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .tipContainer a:hover {
+    text-decoration: underline;
+  }
+  
+  .fetchButton {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .fetchButton:hover {
+    background-color: #0056b3;
+  }
+  
+  
