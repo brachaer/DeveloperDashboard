@@ -1,34 +1,67 @@
+# Developer Motivation Dashboard
+
+A dashboard designed to motivate developers with daily quotes, programming tips, and task management.
+Creatind using SolidJS.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PmwzyCAM2Gg" frameborder="0" allowfullscreen></iframe>
+
+### Click to watch demo:
+
+[![Watch Demo](https://github.com/brachaer/DeveloperDashboard/blob/main/src/assets/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%9E%D7%A1%D7%9A%202024-06-27%20135937.png)](https://www.youtube.com/watch?v=PmwzyCAM2Gg)
+
+
+## Features
+
+- **Motivational Quotes**: Get a random motivational quote for developers.
+- **Daily Programming Tips**: Receive random daily programming tips from DEV.to.
+- **Task Management**: Add and manage your development tasks.
+- **Animated Mascot**: Interact with a cute animated mascot for some fun.
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/brachaer/DeveloperDashboard.git
+    cd my-app
+    ```
+
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
 ## Usage
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+1. Open your browser and navigate to `http://localhost:3000` to see the dashboard in action.
+2. Click on the "Get New Quote" button to fetch a new motivational quote.
+3. Add your tasks in the task management section.
+4. Click on the mascot to see different animations.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+## Components
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+### 1. `App.jsx`
+The main component that renders the header, quote, mascot, tasks, pomodoro timer, and programming tips.
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+### 2. `Quote.jsx`
+Fetches and displays a random motivational quote for developers.
 
-## Available Scripts
+### 3. `Mascot.jsx`
+Displays an interactive animated mascot.
 
-In the project directory, you can run:
+### 4. `Tasks.jsx`
+Allows users to add and manage development tasks.
 
-### `npm run dev` or `npm start`
+### 5. `ProgrammingTip.jsx`
+Fetches and displays a random programming tip from DEV.to.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
 
-The page will reload if you make edits.<br>
+- **SolidJS**: A declarative JavaScript library for building user interfaces.
+- **Vite**: A fast build tool and development server.
+- **CSS Modules**: Scoped CSS to avoid global styles conflicts.
 
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
