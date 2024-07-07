@@ -38,6 +38,7 @@ function App() {
       <br />
       <Mascot />
       <ProgrammingTip />
+      <br />
       <Mascot />
       <Tasks />
     </div>
